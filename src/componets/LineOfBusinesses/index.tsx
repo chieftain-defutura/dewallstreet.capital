@@ -66,7 +66,7 @@ const LineOfBusinesses: React.FC = () => {
                 title="On demand client services"
                 discription="We are the most reputed consultancy amongst new age market demands and we word for individuals and business on various fixed and hourly fee models."
                 button="Visit Consultancy website"
-                link="/home"
+                link="https://consultancy.dewallstreet.capital/"
               />
             </div>
             <div className="business-content-right">
