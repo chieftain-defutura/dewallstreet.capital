@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.scss";
-import { ReactComponent as Logo } from "../../assets/icons/dewall-logo.svg";
 import { ReactComponent as Map } from "../../assets/icons/map-pin.svg";
 import { ReactComponent as Mail } from "../../assets/icons/mail.svg";
 import { ReactComponent as Phone } from "../../assets/icons/phone.svg";
@@ -8,7 +7,8 @@ import { ReactComponent as Twiter } from "../../assets/icons/twiter.svg";
 import { ReactComponent as Instagram } from "../../assets/icons/instagram.svg";
 import { ReactComponent as Linkedin } from "../../assets/icons/linkedin.svg";
 import { ReactComponent as Telegram } from "../../assets/icons/telegram.svg";
-import { ReactComponent as Rigtarrow } from "../../assets/icons/arrow-right-footer.svg";
+import rigtarrow from "../../assets/icons/arrow-right-footer.svg";
+import logo from "../../assets/images/dewallcapital-logo.png";
 
 const Footer: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             <div className="address">
               <div>
                 <div className="logo">
-                  <Logo />
+                  <img src={logo} alt="logo" />
                 </div>
                 <div className="address-deteials">
                   <Map />
@@ -61,6 +61,27 @@ const Footer: React.FC = () => {
                     <li>Boards</li>
                   </ul>
                 </div>
+                <div className="medias">
+                  <h5>FOLLOW US ON</h5>
+                  <div className="media_apps">
+                    <div className="social_apps">
+                      <Twiter />
+                      <p>Twiter</p>
+                    </div>
+                    <div className="social_apps">
+                      <Instagram />
+                      <p>Instagram</p>
+                    </div>
+                    <div className="social_apps">
+                      <Linkedin />
+                      <p>Linkedin</p>
+                    </div>
+                    <div className="social_apps">
+                      <Telegram />
+                      <p>Telegram</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="appointment">
@@ -70,16 +91,24 @@ const Footer: React.FC = () => {
 
                   <div className="search">
                     <input type="text" placeholder="Your email" />
-                    <Rigtarrow />
+                    <img src={rigtarrow} alt="rigtarrow" />
                   </div>
                 </div>
                 <div className="follow">
                   <h5>Follow Us On</h5>
                   <div className="social_media">
-                    <Twiter />
-                    <Instagram />
-                    <Linkedin />
-                    <Telegram />
+                    <div>
+                      <Twiter />
+                    </div>
+                    <div>
+                      <Instagram />
+                    </div>
+                    <div>
+                      <Linkedin />
+                    </div>
+                    <div>
+                      <Telegram />
+                    </div>
                   </div>
                 </div>
               </div>
