@@ -64,10 +64,16 @@ h4 {
 }
 li {
   font-size: 14px;
+  padding: 16px;
   font-family: var(--font-light);
   color: #aaaaaa;
   list-style: none;
+  @media (max-width: 480px) {
+    font-size: 12px;
+    padding: 8px 0;
+  }
 }
+
 button {
   cursor: pointer;
   transition: 0.5s;

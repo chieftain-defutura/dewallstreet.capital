@@ -4,6 +4,7 @@ import { ReactComponent as RollArrow } from "../../assets/icons/roll-arrow-white
 import LineOfBusinesses from "../../componets/LineOfBusinesses";
 import Footer from "../../componets/Footer";
 import "./RootPage.scss";
+import { Link } from "react-router-dom";
 
 const RootPage: React.FC = () => {
   return (
