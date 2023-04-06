@@ -1,0 +1,45 @@
+.cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  padding: 24px;
+  background-color: #ffffff;
+  width: 346px;
+  margin-left: 64px;
+  margin-bottom: 24px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #252525;
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #444444;
+  }
+  .access_cookies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 24px 0;
+    label {
+      color: #444444;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: 400;
+    }
+  }
+  .cookie_btn {
+    button {
+      padding: 8px 100px;
+    }
+  }
+}

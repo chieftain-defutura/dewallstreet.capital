@@ -33,6 +33,11 @@
       height: 200px;
       margin: 0 auto;
     }
+    @media (max-width: 320px) {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
   }
   .advisory-logo {
     @media (max-width: 1024px) {
@@ -73,6 +78,9 @@
         font-weight: 100;
         img {
           width: 24px;
+        }
+        @media (max-width: 470px) {
+          padding: 0 71px;
         }
       }
     }
