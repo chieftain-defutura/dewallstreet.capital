@@ -10,6 +10,33 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
+  scroll-behavior: smooth;
+
+  @media (max-width: 780px) {
+    width: 300px;
+    margin-left: 24px;
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  @media (max-width: 680px) {
+    width: 280px;
+    margin-left: 24px;
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  @media (max-width: 480px) {
+    width: 270px;
+    margin-left: 24px;
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
 
   h2 {
     font-size: 20px;
@@ -17,12 +44,21 @@
     color: #252525;
     padding-top: 24px;
     padding-bottom: 8px;
+    @media (max-width: 480px) {
+      font-size: 12px;
+      padding-top: 14px;
+    }
   }
   p {
     font-size: 12px;
     line-height: 18px;
     font-weight: 500;
     color: #444444;
+    @media (max-width: 480px) {
+      font-size: 8px;
+      line-height: 9px;
+      padding-bottom: 4px;
+    }
   }
   .access_cookies {
     display: flex;
@@ -30,16 +66,41 @@
     align-items: center;
     gap: 20px;
     padding: 24px 0;
+    @media (max-width: 480px) {
+      padding: 14px 0;
+    }
     label {
       color: #444444;
       font-size: 12px;
       line-height: 14px;
       font-weight: 400;
+      @media (max-width: 780px) {
+        font-size: 10px;
+      }
+      @media (max-width: 480px) {
+        font-size: 8px;
+      }
+    }
+    .check_box {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+      align-items: center;
+      padding-bottom: 16px;
     }
   }
   .cookie_btn {
     button {
       padding: 8px 100px;
+      @media (max-width: 780px) {
+        padding: 8px 84px;
+      }
+      @media (max-width: 620px) {
+        padding: 8px 74px;
+      }
+      @media (max-width: 480px) {
+        padding: 8px 64px;
+      }
     }
   }
 }

@@ -4,7 +4,7 @@ import { ReactComponent as RollArrow } from "../../assets/icons/roll-arrow-white
 import LineOfBusinesses from "../../componets/LineOfBusinesses";
 import Footer from "../../componets/Footer";
 import "./RootPage.scss";
-import Cookies from "../../componets/Cookies";
+// import Cookies from "../../componets/Cookies";
 
 const RootPage: React.FC = () => {
   return (
@@ -50,7 +50,7 @@ const RootPage: React.FC = () => {
               </p>
             </div>
           </div>
-          <Cookies />
+          {/* <Cookies /> */}
         </div>
       </div>
       <LineOfBusinesses />
