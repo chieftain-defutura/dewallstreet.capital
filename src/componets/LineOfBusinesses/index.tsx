@@ -40,7 +40,7 @@ const DemoBusinesses: React.FC<IBusiness> = ({
         <h2>{title}</h2>
         <p>{discription}</p>
         <div className="visit-btn">
-          <a href={link}>
+          <a href={link} target="_blank" rel="noreferrer">
             <button>
               {button} <img src={ExternalLink} alt="" />
             </button>
@@ -77,6 +77,7 @@ const LineOfBusinesses: React.FC = () => {
                 title="Private equity partnership"
                 discription="We established advisory unit for enterprises and startups with potential ideas to scale fast on private equity partnership basis."
                 button="Visit Advisory website"
+                link="https://advisory.dewallstreet.capital/"
               />
             </div>
           </div>

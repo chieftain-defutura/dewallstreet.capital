@@ -7,7 +7,7 @@ import { ReactComponent as Phone } from "../../assets/icons/phone.svg";
 import { ReactComponent as Twiter } from "../../assets/icons/twiter.svg";
 import { ReactComponent as Instagram } from "../../assets/icons/instagram.svg";
 import { ReactComponent as Linkedin } from "../../assets/icons/linkedin.svg";
-import { ReactComponent as Telegram } from "../../assets/icons/telegram.svg";
+import Telegram from "../../assets/icons/telegram.svg";
 import rigtarrow from "../../assets/icons/arrow-right-footer.svg";
 import logo from "../../assets/images/dewallcapital-logo.png";
 import { Link } from "react-router-dom";
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
                         <p>Linkedin</p>
                       </div>
                       <div className="social_apps">
-                        <Telegram />
+                        <img src={Telegram} alt="" />
                         <p>Telegram</p>
                       </div>
                     </div>
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
                         <Linkedin />
                       </div>
                       <div>
-                        <Telegram />
+                        <img src={Telegram} alt="" />
                       </div>
                     </div>
                   </div>
